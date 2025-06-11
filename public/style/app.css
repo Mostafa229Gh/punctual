@@ -5,12 +5,17 @@
   cursor: default;
 }
 body {
+
+}
+.form_container {
   font-family: "Poppins";
   background-color: #080710;
+  color: white;
+  width: 100%;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
 }
 .Login_form {
   width: 400px;
@@ -54,7 +59,7 @@ body {
 }
 .input_username::placeholder,
 .input_Password::placeholder {
-  color: white !important;
+  color: #888 !important;
 }
 .input_Password,
 .input_username:focus {
